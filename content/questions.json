@@ -1,0 +1,1834 @@
+{
+ "notice": "자체 제작 확인 문제입니다. 필기시험(코드 빈칸 채우기) 대비용으로 강의 예제 코드에서 만들었습니다.",
+ "version": "1.0",
+ "questions": [
+  {
+   "id": "Q001",
+   "topic": "U01",
+   "level": "입문",
+   "type": "single_choice",
+   "question": "컴퓨터가 직접 이해할 수 있는 언어는?",
+   "choices": [
+    "C 언어",
+    "기계어",
+    "자연어",
+    "어셈블리 문법"
+   ],
+   "answerIndex": 1,
+   "explanation": "컴퓨터는 0과 1로 된 기계어만 이해합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q002",
+   "topic": "U01",
+   "level": "입문",
+   "type": "single_choice",
+   "question": "사람이 작성한 프로그래밍 언어를 기계어로 변환하는 것은?",
+   "choices": [
+    "에디터",
+    "디버거",
+    "컴파일러",
+    "운영체제"
+   ],
+   "answerIndex": 2,
+   "explanation": "컴파일러(compiler)가 소스 코드를 기계어로 번역합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q003",
+   "topic": "U01",
+   "level": "입문",
+   "type": "single_choice",
+   "question": "C 언어를 개발한 사람과 목적이 바르게 짝지어진 것은?",
+   "choices": [
+    "제임스 고슬링 — 웹 개발",
+    "귀도 반 로섬 — 교육용",
+    "데니스 리치 — UNIX 개발",
+    "빌 게이츠 — Windows 개발"
+   ],
+   "answerIndex": 2,
+   "explanation": "1970년대 초 AT&T의 데니스 리치가 UNIX 운영체제 개발을 위해 만들었습니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q004",
+   "topic": "U01",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "C 언어의 특징으로 강의에서 설명한 것이 아닌 것은?",
+   "choices": [
+    "효율적이다",
+    "이식성이 뛰어나다",
+    "초보자가 배우기 가장 쉽다",
+    "간결하다"
+   ],
+   "answerIndex": 2,
+   "explanation": "강의는 C 언어가 '초보자가 배우기가 어렵다'고 설명합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q005",
+   "topic": "U01",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "장치 안에 컴퓨터가 내장된 특수 목적 시스템은?",
+   "choices": [
+    "임베디드 시스템",
+    "운영체제",
+    "클라우드",
+    "실시간 시스템"
+   ],
+   "answerIndex": 0,
+   "explanation": "임베디드 시스템(embedded system)은 컴퓨터가 장치 안에 내장된 특수 목적 시스템입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q006",
+   "topic": "U01",
+   "level": "입문",
+   "type": "single_choice",
+   "question": "프로그램의 정의로 가장 알맞은 것은?",
+   "choices": [
+    "컴퓨터가 특정 작업을 수행하게 하는 명령어들의 리스트",
+    "인터넷 주소",
+    "데이터를 저장하는 파일 형식",
+    "컴퓨터의 하드웨어 부품"
+   ],
+   "answerIndex": 0,
+   "explanation": "프로그램은 컴퓨터가 읽을 수 있는 명령어가 들어 있는 작업 지시서입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q007",
+   "topic": "U02",
+   "level": "입문",
+   "type": "single_choice",
+   "question": "프로그램 개발 단계의 순서로 옳은 것은?",
+   "choices": [
+    "컴파일 → 작성 → 실행",
+    "작성 → 실행 → 컴파일",
+    "작성 → 컴파일 → 실행",
+    "실행 → 작성 → 컴파일"
+   ],
+   "answerIndex": 2,
+   "explanation": "소스를 작성하고, 컴파일해서 기계어로 바꾼 뒤 실행합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q008",
+   "topic": "U02",
+   "level": "입문",
+   "type": "single_choice",
+   "question": "에디터·컴파일러·디버거를 하나로 통합한 소프트웨어 도구는?",
+   "choices": [
+    "IDE",
+    "OS",
+    "CPU",
+    "API"
+   ],
+   "answerIndex": 0,
+   "explanation": "통합 개발 환경(IDE: Integrated Development Environment)입니다.",
+   "sourceIds": [
+    "S01"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q009",
+   "topic": "U02",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "관련 있는 소스 파일들을 하나로 묶어 주는 컨테이너는?",
+   "choices": [
+    "헤더 파일",
+    "폴더",
+    "프로젝트",
+    "라이브러리"
+   ],
+   "answerIndex": 2,
+   "explanation": "비주얼 스튜디오에서는 소스 파일을 만들기 전에 반드시 프로젝트를 먼저 생성합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q010",
+   "topic": "U02",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "C 소스 코드를 입력할 때의 규칙으로 틀린 것은?",
+   "choices": [
+    "대문자와 소문자를 구별한다",
+    "각 문장은 세미콜론(;)으로 끝난다",
+    "( ), { }, [ ]를 구별한다",
+    "세미콜론과 콜론은 같은 의미이다"
+   ],
+   "answerIndex": 3,
+   "explanation": "세미콜론(;)과 콜론(:)을 혼동하면 안 됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q011",
+   "topic": "U02",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "scanf() 사용 시 생기는 오류를 막기 위해 비주얼 스튜디오 프로젝트 속성에서 바꾸는 항목은?",
+   "choices": [
+    "경고 수준 → 4",
+    "SDL 검사 → 아니요",
+    "문자 집합 → 유니코드",
+    "최적화 → 사용"
+   ],
+   "answerIndex": 1,
+   "explanation": "프로젝트 속성의 [SDL 검사]를 '아니요'로 바꿉니다.",
+   "sourceIds": [
+    "S22"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q012",
+   "topic": "U02",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "컴파일 오류가 발생했을 때 해야 할 일은?",
+   "choices": [
+    "프로그램을 바로 실행한다",
+    "컴퓨터를 재부팅한다",
+    "에디터에서 해당 부분을 수정하고 다시 컴파일한다",
+    "프로젝트를 삭제한다"
+   ],
+   "answerIndex": 2,
+   "explanation": "오류 부분을 고친 뒤 다시 컴파일해야 합니다. C 문법을 지키지 않으면 컴파일러가 코드를 이해하지 못합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q013",
+   "topic": "U03",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "【 ? 】 자리에 들어갈 코드는?",
+   "code": "#include 【 ? 】\nint main(void)\n{\n\tprintf(\"안녕하세요?\");\n\treturn 0;\n}",
+   "choices": [
+    "<stdlib.h>",
+    "\"main.h\"",
+    "<printf>",
+    "<stdio.h>"
+   ],
+   "answerIndex": 3,
+   "explanation": "printf()를 사용하려면 표준 입출력 헤더 stdio.h를 포함해야 합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q014",
+   "topic": "U03",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "【 ? 】 자리에 들어갈 코드는?",
+   "code": "#include <stdio.h>\nint 【 ? 】(void)\n{\n\tprintf(\"안녕하세요?\");\n\treturn 0;\n}",
+   "choices": [
+    "main",
+    "begin",
+    "program",
+    "start"
+   ],
+   "answerIndex": 0,
+   "explanation": "C 프로그램은 main() 함수부터 실행됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q015",
+   "topic": "U03",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "두 줄로 출력되게 하려면 【 ? 】 자리에 들어갈 것은?",
+   "code": "printf(\"안녕하세요?【 ? 】\");\nprintf(\"김철수입니다.\");",
+   "choices": [
+    "/n",
+    "\\t",
+    "\\n",
+    "\\b"
+   ],
+   "answerIndex": 2,
+   "explanation": "\\n은 줄바꿈(newline) 제어 문자로 커서를 다음 줄 시작으로 옮깁니다.",
+   "sourceIds": [
+    "S05"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q016",
+   "topic": "U03",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "한 줄 주석을 만드는 기호는?",
+   "code": "int main(void)    【 ? 】 메인 함수 시작",
+   "choices": [
+    "/*",
+    "#",
+    "--",
+    "//"
+   ],
+   "answerIndex": 3,
+   "explanation": "한 줄 주석은 //, 여러 줄 주석은 /* ... */입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q017",
+   "topic": "U03",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 실행 결과는?",
+   "code": "printf(\"안녕하세요?\");\nprintf(\"김철수입니다.\");",
+   "choices": [
+    "컴파일 오류",
+    "안녕하세요?\n김철수입니다. (두 줄)",
+    "안녕하세요?김철수입니다.",
+    "안녕하세요? 김철수입니다."
+   ],
+   "answerIndex": 2,
+   "explanation": "\\n이 없으므로 두 문자열이 한 줄에 붙어서 출력됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q018",
+   "topic": "U03",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "main 함수 끝에서 운영체제에 0을 돌려주며 종료하는 문장은?",
+   "code": "int main(void)\n{\n\tprintf(\"Hello\");\n\t【 ? 】\n}",
+   "choices": [
+    "return 0;",
+    "end 0;",
+    "stop();",
+    "exit;"
+   ],
+   "answerIndex": 0,
+   "explanation": "return 0;은 운영체제에 0을 반환하고 함수를 종료합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q019",
+   "topic": "U04",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "실행 결과가 '10는 정수이다.'가 되도록 【 ? 】를 채우면?",
+   "code": "printf(\"【 ? 】는 정수이다.\", 10);",
+   "choices": [
+    "%d",
+    "%f",
+    "%c",
+    "%s"
+   ],
+   "answerIndex": 0,
+   "explanation": "%d는 정수를 출력하는 형식 지정자입니다.",
+   "sourceIds": [
+    "S02"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q020",
+   "topic": "U04",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 실행 결과는?",
+   "code": "printf(\"%f\", 3.14);",
+   "choices": [
+    "3",
+    "3.1400",
+    "3.14",
+    "3.140000"
+   ],
+   "answerIndex": 3,
+   "explanation": "%f는 기본으로 소수점 아래 6자리까지 출력합니다.",
+   "sourceIds": [
+    "S02"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q021",
+   "topic": "U04",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "문자 'A'를 출력하려면 【 ? 】에 들어갈 형식 지정자는?",
+   "code": "printf(\"【 ? 】는 B보다 앞에 있습니다.\\n\", 'A');",
+   "choices": [
+    "%c",
+    "%s",
+    "%d",
+    "%a"
+   ],
+   "answerIndex": 0,
+   "explanation": "문자(char)는 %c, 문자열은 %s로 출력합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q022",
+   "topic": "U04",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "탭 간격을 넣는 이스케이프 시퀀스는?",
+   "code": "printf(\"**【 ? 】PROGRAMMING【 ? 】**\\n\");",
+   "choices": [
+    "\\a",
+    "\\t",
+    "\\b",
+    "\\n"
+   ],
+   "answerIndex": 1,
+   "explanation": "\\t는 탭입니다. \\a는 경고음, \\b는 백스페이스입니다.",
+   "sourceIds": [
+    "S05"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q023",
+   "topic": "U04",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "문자와 문자열의 표기가 바르게 짝지어진 것은?",
+   "choices": [
+    "둘 다 작은따옴표",
+    "문자 \"A\", 문자열 'Hey'",
+    "문자 'A', 문자열 \"Hey\"",
+    "문자 A, 문자열 Hey"
+   ],
+   "answerIndex": 2,
+   "explanation": "문자는 작은따옴표, 문자열은 큰따옴표로 표기합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q024",
+   "topic": "U04",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "16진수 0x1A3F를 10진수로 바꾸면?",
+   "choices": [
+    "6703",
+    "6819",
+    "6719",
+    "6723"
+   ],
+   "answerIndex": 2,
+   "explanation": "1×4096 + 10×256 + 3×16 + 15×1 = 4096+2560+48+15 = 6719입니다. (슬라이드의 ChatGPT 캡처는 6723으로 잘못 계산)",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q025",
+   "topic": "U05",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "두 수의 합을 저장하려면 【 ? 】에 들어갈 코드는?",
+   "code": "int x = 100;\nint y = 200;\nint sum;\n【 ? 】\nprintf(\"두 수의 합: %d \\n\", sum);",
+   "choices": [
+    "sum == x + y;",
+    "int sum = x + y",
+    "x + y = sum;",
+    "sum = x + y;"
+   ],
+   "answerIndex": 3,
+   "explanation": "대입 연산자 =의 왼쪽에는 변수, 오른쪽에는 수식이 옵니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q026",
+   "topic": "U05",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "기호 상수를 정의하는 【 ? 】는?",
+   "code": "【 ? 】 PI 3.141592\n...\narea = PI * radius * radius;",
+   "choices": [
+    "const",
+    "#define",
+    "define",
+    "#include"
+   ],
+   "answerIndex": 1,
+   "explanation": "#define으로 상수에 이름을 붙인 것이 기호 상수입니다.",
+   "sourceIds": [
+    "S24"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q027",
+   "topic": "U05",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "변수 이름으로 사용할 수 있는 것은?",
+   "choices": [
+    "money#",
+    "double",
+    "_count",
+    "2nd_base"
+   ],
+   "answerIndex": 2,
+   "explanation": "첫 글자는 영문자나 밑줄, 특수문자 #은 불가, double은 예약어입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q028",
+   "topic": "U05",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 마지막 출력은?",
+   "code": "int x = 10;\nint y = 20;\nx = y;\nprintf(\"변수 x의 값은 %d입니다.\", x);",
+   "choices": [
+    "30",
+    "0",
+    "10",
+    "20"
+   ],
+   "answerIndex": 3,
+   "explanation": "x = y;는 y의 값 20을 x에 대입합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q029",
+   "topic": "U05",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "초기화하지 않은 변수를 출력하면?",
+   "code": "int value;\nprintf(\"%d \\n\", value);",
+   "choices": [
+    "항상 0",
+    "항상 -1",
+    "쓰레기값(의미 없는 값)",
+    "컴파일되지 않는다"
+   ],
+   "answerIndex": 2,
+   "explanation": "초기화하지 않은 변수에는 메모리에 남아 있던 쓰레기값이 들어 있습니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q030",
+   "topic": "U05",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "기호 상수를 쓰는 가장 큰 장점은?",
+   "choices": [
+    "실행 속도가 2배 빨라진다",
+    "값이 바뀌면 정의된 한 곳만 고치면 된다",
+    "메모리를 쓰지 않는다",
+    "변수보다 큰 수를 저장한다"
+   ],
+   "answerIndex": 1,
+   "explanation": "리터럴 상수를 쓰면 등장하는 모든 곳을 고쳐야 하지만 기호 상수는 정의한 곳만 고치면 됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q031",
+   "topic": "U06",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "【 ? 】 자리에 들어갈 코드는?",
+   "code": "int x;\nprintf(\"첫 번째 숫자를 입력하시오:\");\nscanf(\"%d\", 【 ? 】);",
+   "choices": [
+    "%x",
+    "x",
+    "*x",
+    "&x"
+   ],
+   "answerIndex": 3,
+   "explanation": "scanf()는 저장할 위치(주소)를 알아야 하므로 변수 앞에 &를 붙입니다.",
+   "sourceIds": [
+    "S03"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q032",
+   "topic": "U06",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "double형 변수 grade에 입력받을 때 【 ? 】에 들어갈 형식 지정자는?",
+   "code": "double grade;\nscanf(\"【 ? 】\", &grade);",
+   "choices": [
+    "%d",
+    "%f",
+    "%lf",
+    "%c"
+   ],
+   "answerIndex": 2,
+   "explanation": "scanf에서 double은 %lf, float는 %f입니다.",
+   "sourceIds": [
+    "S03"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q033",
+   "topic": "U06",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "앞에서 입력한 엔터를 건너뛰고 문자 하나를 읽으려면?",
+   "code": "char gender;\nscanf(\"【 ? 】\", &gender);",
+   "choices": [
+    "%s",
+    "%d",
+    "%c",
+    " %c"
+   ],
+   "answerIndex": 3,
+   "explanation": "%c 앞에 공백을 두면 버퍼에 남은 줄바꿈 등 공백 문자를 건너뜁니다.",
+   "sourceIds": [
+    "S03"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q034",
+   "topic": "U06",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "키보드로부터 입력된 데이터를 형식에 맞게 변환해 변수에 저장하는 함수는?",
+   "choices": [
+    "main()",
+    "sizeof()",
+    "printf()",
+    "scanf()"
+   ],
+   "answerIndex": 3,
+   "explanation": "scanf()는 입력, printf()는 출력입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q035",
+   "topic": "U06",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드에 10, 20, 25를 입력하면 출력되는 평균은?",
+   "code": "int x, y, z, sum, avg;\nscanf(\"%d\", &x); scanf(\"%d\", &y); scanf(\"%d\", &z);\nsum = x + y + z;\navg = sum / 3;\nprintf(\"평균값은 %d입니다.\", avg);",
+   "choices": [
+    "19",
+    "55",
+    "18",
+    "18.33"
+   ],
+   "answerIndex": 2,
+   "explanation": "55 / 3은 정수 나눗셈이라 소수점 이하가 버려져 18입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q036",
+   "topic": "U06",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "scanf() 앞에 반드시 두어야 할 것은?",
+   "choices": [
+    "return 문",
+    "입력 안내 메시지(printf)",
+    "#define",
+    "주석"
+   ],
+   "answerIndex": 1,
+   "explanation": "scanf()에 도달하면 프로그램이 멈추고 입력을 기다리므로, 무엇을 입력할지 안내하는 문장이 필요합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q037",
+   "topic": "U07",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "자료형의 크기를 바이트로 계산하는 【 ? 】는?",
+   "code": "printf(\"%d \\n\", 【 ? 】(int));   // 4",
+   "choices": [
+    "typeof",
+    "sizeof",
+    "size",
+    "length"
+   ],
+   "answerIndex": 1,
+   "explanation": "sizeof 연산자는 자료형이나 변수의 크기를 바이트로 알려 줍니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q038",
+   "topic": "U07",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "Visual Studio에서 int형의 크기는?",
+   "choices": [
+    "2바이트",
+    "4바이트",
+    "8바이트",
+    "1바이트"
+   ],
+   "answerIndex": 1,
+   "explanation": "int는 32비트(4바이트), 범위는 약 ±21억입니다.",
+   "sourceIds": [
+    "S23"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q039",
+   "topic": "U07",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "0~65535를 저장하도록 【 ? 】를 채우면?",
+   "code": "【 ? 】 short value;\nvalue = 65535;",
+   "choices": [
+    "const",
+    "signed",
+    "long",
+    "unsigned"
+   ],
+   "answerIndex": 3,
+   "explanation": "unsigned를 붙이면 음수 없이 0과 양수만 저장해 short로 0~65535를 표현합니다.",
+   "sourceIds": [
+    "S04"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q040",
+   "topic": "U07",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 출력은?",
+   "code": "int i;\nfloat f = 183.5;\ni = f;\nprintf(\"i = %d\", i);",
+   "choices": [
+    "i = 183.5",
+    "i = 184",
+    "i = 183",
+    "i = 0"
+   ],
+   "answerIndex": 2,
+   "explanation": "실수를 정수형 변수에 대입하면 소수점 이하가 버려집니다.",
+   "sourceIds": [
+    "S08"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q041",
+   "topic": "U07",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "아스키 코드에서 'A'의 값은?",
+   "choices": [
+    "48",
+    "33",
+    "65",
+    "97"
+   ],
+   "answerIndex": 2,
+   "explanation": "'A'=65, 'a'=97, '0'=48, '!'=33입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q042",
+   "topic": "U07",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "float와 double 중 정밀도가 더 높아 1.234567890123456789를 더 정확히 저장하는 것은?",
+   "choices": [
+    "둘이 같다",
+    "char",
+    "float",
+    "double"
+   ],
+   "answerIndex": 3,
+   "explanation": "float는 32비트(약 7자리), double은 64비트(약 15자리)입니다.",
+   "sourceIds": [
+    "S04"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q043",
+   "topic": "U08",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드에 7과 4를 입력하면 출력되는 값은?",
+   "code": "result = x / y;\nprintf(\"%d\", result);",
+   "choices": [
+    "2",
+    "1",
+    "3",
+    "1.75"
+   ],
+   "answerIndex": 1,
+   "explanation": "정수끼리 나눗셈은 소수점 이하가 버려져 1입니다.",
+   "sourceIds": [
+    "S06"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q044",
+   "topic": "U08",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "몫과 나머지를 구하도록 【 ? 】를 채우면?",
+   "code": "q = x / y;\nr = x 【 ? 】 y;",
+   "choices": [
+    "/",
+    "%",
+    "*",
+    "//"
+   ],
+   "answerIndex": 1,
+   "explanation": "% 연산자는 나눗셈의 나머지를 구합니다.",
+   "sourceIds": [
+    "S06"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q045",
+   "topic": "U08",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "섭씨온도가 항상 0으로 나오는 원인을 고치려면 【 ? 】를 무엇으로?",
+   "code": "c_temp = 【 ? 】 * (f_temp - 32);",
+   "choices": [
+    "5 / 9",
+    "5.0 / 9.0",
+    "(int)5 / 9",
+    "5 % 9"
+   ],
+   "answerIndex": 1,
+   "explanation": "5 / 9는 정수 나눗셈이라 0입니다. 5.0 / 9.0처럼 실수로 계산해야 합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q046",
+   "topic": "U08",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드 실행 후 x와 y의 값은?",
+   "code": "x = 10;\ny = x++;",
+   "choices": [
+    "x=10, y=11",
+    "x=11, y=10",
+    "x=10, y=10",
+    "x=11, y=11"
+   ],
+   "answerIndex": 1,
+   "explanation": "x++는 원래 값(10)을 먼저 사용(대입)한 뒤 x를 증가시킵니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q047",
+   "topic": "U08",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "x = x + y 와 같은 의미가 되도록 【 ? 】를 채우면?",
+   "code": "x 【 ? 】 y;",
+   "choices": [
+    "++",
+    "==",
+    "=+",
+    "+="
+   ],
+   "answerIndex": 3,
+   "explanation": "복합 대입 연산자 +=는 x = x + y와 같습니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q048",
+   "topic": "U08",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 출력은?",
+   "code": "int i;\ni = (int)1.3 + (int)1.8;\nprintf(\"%d\\n\", i);",
+   "choices": [
+    "3",
+    "3.1",
+    "2",
+    "1"
+   ],
+   "answerIndex": 2,
+   "explanation": "(int)1.3은 1, (int)1.8도 1(버림)이라 합은 2입니다.",
+   "sourceIds": [
+    "S08"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q049",
+   "topic": "U08",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "연산자 우선순위가 가장 낮은 것은? (콤마 제외)",
+   "choices": [
+    "관계 연산자",
+    "논리 연산자",
+    "대입 연산자",
+    "산술 연산자"
+   ],
+   "answerIndex": 2,
+   "explanation": "콤마 < 대입 < 논리 < 관계 < 산술 < 단항 순입니다.",
+   "sourceIds": [
+    "S07"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q050",
+   "topic": "U09",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "짝수 판별이 되도록 【 ? 】를 채우면?",
+   "code": "if( number % 2 【 ? 】 0 )\n\tprintf(\"짝수입니다.\\n\");",
+   "choices": [
+    "=",
+    "==",
+    "!=",
+    ">="
+   ],
+   "answerIndex": 1,
+   "explanation": "같은지 비교는 ==입니다. =는 대입이라 의도와 다르게 동작합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q051",
+   "topic": "U09",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "윤년 조건이 되도록 【 ? 】에 들어갈 연산자는?",
+   "code": "if((year % 4 == 0 && year % 100 != 0) 【 ? 】 year % 400 == 0)",
+   "choices": [
+    "==",
+    "&&",
+    "||",
+    "!"
+   ],
+   "answerIndex": 2,
+   "explanation": "'4의 배수이면서 100의 배수가 아님' 또는 '400의 배수'이므로 OR(||)입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q052",
+   "topic": "U09",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "1과 0을 입력했을 때 출력은?",
+   "code": "printf(\"%d %d %d\", x && y, x || y, !x);",
+   "choices": [
+    "0 0 1",
+    "1 0 1",
+    "0 1 0",
+    "1 1 0"
+   ],
+   "answerIndex": 2,
+   "explanation": "1&&0=0, 1||0=1, !1=0입니다. 논리 연산 결과는 1 또는 0입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q053",
+   "topic": "U09",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "80점대를 B로 판정하도록 【 ? 】를 채우면?",
+   "code": "if (score >= 90)\n\tprintf(\"A\\n\");\n【 ? 】 (score >= 80)\n\tprintf(\"B\\n\");\nelse\n\tprintf(\"C 이하\\n\");",
+   "choices": [
+    "elif",
+    "if",
+    "else",
+    "else if"
+   ],
+   "answerIndex": 3,
+   "explanation": "여러 조건을 차례로 검사할 때 else if를 씁니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q054",
+   "topic": "U09",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "score가 75일 때 출력은?",
+   "code": "if( score >= 80 )\n\tif( score >= 90 )\n\t\tprintf(\"A\");\n\telse\n\t\tprintf(\"B\");",
+   "choices": [
+    "아무것도 출력되지 않는다",
+    "AB",
+    "A",
+    "B"
+   ],
+   "answerIndex": 0,
+   "explanation": "else는 가장 가까운 if(score >= 90)와 짝입니다. 바깥 if가 거짓이므로 아무것도 출력되지 않습니다.",
+   "sourceIds": [
+    "S09"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q055",
+   "topic": "U09",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "C 언어에서 참과 거짓에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "0은 거짓, 0이 아닌 모든 값은 참",
+    "음수는 모두 거짓",
+    "true/false 키워드만 쓸 수 있다",
+    "1만 참이고 나머지는 거짓"
+   ],
+   "answerIndex": 0,
+   "explanation": "C에서는 0이 거짓, 0 이외의 모든 정수가 참입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q056",
+   "topic": "U10",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "【 ? 】 자리에 들어갈 코드는?",
+   "code": "【 ? 】(month)\n{\n\tcase 2:\n\t\tdays = 28;\n\t\tbreak;\n\tdefault:\n\t\tdays = 31;\n\t\tbreak;\n}",
+   "choices": [
+    "select",
+    "case",
+    "if",
+    "switch"
+   ],
+   "answerIndex": 3,
+   "explanation": "switch(변수) { case 값: ... }의 구조입니다.",
+   "sourceIds": [
+    "S10"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q057",
+   "topic": "U10",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "case 2의 처리 후 switch를 빠져나가도록 【 ? 】를 채우면?",
+   "code": "case 2:\n\tdays = 28;\n\t【 ? 】;",
+   "choices": [
+    "break",
+    "exit",
+    "continue",
+    "return"
+   ],
+   "answerIndex": 0,
+   "explanation": "break가 없으면 다음 case의 문장까지 이어서 실행됩니다.",
+   "sourceIds": [
+    "S10"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q058",
+   "topic": "U10",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "일치하는 case가 없을 때 실행되는 절은?",
+   "code": "switch(op) {\n\tcase '+': result = x + y; break;\n\t【 ? 】:\n\t\tprintf(\"지원되지 않는 연산자입니다.\\n\");\n\t\tbreak;\n}",
+   "choices": [
+    "other",
+    "default",
+    "case _",
+    "else"
+   ],
+   "answerIndex": 1,
+   "explanation": "default 절은 어떤 case와도 일치하지 않을 때 실행됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q059",
+   "topic": "U10",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "number가 1일 때 출력은?",
+   "code": "switch(number) {\n\tcase 0: printf(\"없음 \");\n\tcase 1: printf(\"하나 \");\n\tcase 2: printf(\"둘 \"); break;\n\tdefault: printf(\"많음 \");\n}",
+   "choices": [
+    "하나 둘 많음",
+    "없음 하나 둘",
+    "하나",
+    "하나 둘"
+   ],
+   "answerIndex": 3,
+   "explanation": "case 1부터 실행되고 break가 없어 case 2까지 이어지다 break에서 멈춥니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q060",
+   "topic": "U10",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "큰 수를 출력하도록 【 ? 】를 채우면?",
+   "code": "printf(\"큰 수=%d \\n\", (x > y) 【 ? 】);",
+   "choices": [
+    "? x : y",
+    ": x ? y",
+    "? y : x",
+    "&& x || y"
+   ],
+   "answerIndex": 0,
+   "explanation": "조건 연산자 (조건) ? 참일 때 값 : 거짓일 때 값.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q061",
+   "topic": "U10",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "switch 문에 대한 설명으로 틀린 것은?",
+   "choices": [
+    "case 절에 변수를 쓸 수 있다",
+    "break를 일부러 생략해 여러 case를 묶을 수 있다",
+    "default는 일치하는 case가 없을 때 실행된다",
+    "괄호 안에는 정수형·문자형 수식이 온다"
+   ],
+   "answerIndex": 0,
+   "explanation": "case 절에는 상수(리터럴)만 올 수 있습니다.",
+   "sourceIds": [
+    "S10"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q062",
+   "topic": "U11",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "1부터 10까지 더하도록 【 ? 】를 채우면?",
+   "code": "int i = 1, sum = 0;\n【 ? 】 (i <= 10)\n{\n\tsum = sum + i;\n\ti++;\n}",
+   "choices": [
+    "if",
+    "while",
+    "do",
+    "for"
+   ],
+   "answerIndex": 1,
+   "explanation": "while (조건) { ... } 은 조건이 참인 동안 반복합니다.",
+   "sourceIds": [
+    "S11"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q063",
+   "topic": "U11",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "다음 반복이 끝나지 않는(무한 루프) 이유는?",
+   "code": "int i = 0;\nwhile (i < 5)\n{\n\tprintf(\"환영합니다. \");\n}",
+   "choices": [
+    "조건식에 = 이 빠져서",
+    "i를 증가시키는 문장이 없어서",
+    "printf 때문에",
+    "i가 0부터 시작해서"
+   ],
+   "answerIndex": 1,
+   "explanation": "조건과 관련된 변수(i)를 갱신하지 않으면 조건이 계속 참이라 무한 루프가 됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q064",
+   "topic": "U11",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "do-while 문을 완성하는 【 ? 】는?",
+   "code": "do {\n\tscanf(\"%d\", &x);\n\tsum = sum + x;\n} 【 ? 】",
+   "choices": [
+    "loop (x != 0);",
+    "while (x != 0)",
+    "while (x != 0);",
+    "until (x == 0);"
+   ],
+   "answerIndex": 2,
+   "explanation": "do-while은 끝에 while (조건); 으로 세미콜론이 붙습니다.",
+   "sourceIds": [
+    "S12"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q065",
+   "topic": "U11",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "do-while 문이 while 문과 다른 점은?",
+   "choices": [
+    "break를 쓸 수 없다",
+    "조건을 반복 시작 전에 검사한다",
+    "최소 한 번은 반드시 실행된다",
+    "반복 횟수를 지정해야 한다"
+   ],
+   "answerIndex": 2,
+   "explanation": "do-while은 루프 끝에서 조건을 검사하므로 최소 1번 실행됩니다.",
+   "sourceIds": [
+    "S12"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q066",
+   "topic": "U11",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "num이 1234일 때 출력은?",
+   "code": "while (num != 0) {\n\tsum += num % 10;\n\tnum /= 10;\n}\nprintf(\"%d\", sum);",
+   "choices": [
+    "4",
+    "24",
+    "1234",
+    "10"
+   ],
+   "answerIndex": 3,
+   "explanation": "끝자리부터 4, 3, 2, 1을 더해 10입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q067",
+   "topic": "U11",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "최솟값을 찾을 때 min_value의 초기값으로 알맞은 것은?",
+   "code": "#include <limits.h>\nint number, min_value = 【 ? 】;",
+   "choices": [
+    "-1",
+    "INT_MAX",
+    "INT_MIN",
+    "0"
+   ],
+   "answerIndex": 1,
+   "explanation": "가능한 가장 큰 값에서 시작해야 어떤 입력이 와도 더 작은 값으로 갱신됩니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q068",
+   "topic": "U12",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "1부터 limit까지 반복하도록 【 ? 】를 채우면?",
+   "code": "for (【 ? 】)\n\tsum += i;",
+   "choices": [
+    "i = 0; i < limit",
+    "i++; i <= limit; i = 1",
+    "i = 1; i <= limit; i++",
+    "i = 1, i <= limit, i++"
+   ],
+   "answerIndex": 2,
+   "explanation": "for(초기식; 조건식; 증감식) 순서이고 세미콜론으로 구분합니다.",
+   "sourceIds": [
+    "S13"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q069",
+   "topic": "U12",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 for 문은 Hello World!를 몇 번 출력하는가?",
+   "code": "for (i = 0; i < 10; i += 2)\n\tprintf(\"Hello World!\\n\");",
+   "choices": [
+    "10번",
+    "5번",
+    "4번",
+    "6번"
+   ],
+   "answerIndex": 1,
+   "explanation": "i가 0, 2, 4, 6, 8일 때 실행되므로 5번입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q070",
+   "topic": "U12",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "q를 입력하면 반복을 끝내도록 【 ? 】를 채우면?",
+   "code": "for(;;) {\n\tscanf(\" %c\", &c);\n\tif (c == 'q')\n\t\t【 ? 】;\n}",
+   "choices": [
+    "break",
+    "return 1",
+    "exit",
+    "continue"
+   ],
+   "answerIndex": 0,
+   "explanation": "break는 반복 루프를 즉시 빠져나옵니다.",
+   "sourceIds": [
+    "S14"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q071",
+   "topic": "U12",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 출력은?",
+   "code": "for(i=0 ; i<10 ; i++) {\n\tif( i%3 == 0 )\n\t\tcontinue;\n\tprintf(\"%d \", i);\n}",
+   "choices": [
+    "0 3 6 9",
+    "1 2 4 5 7 8",
+    "1 2 3 4 5 6 7 8 9",
+    "10"
+   ],
+   "answerIndex": 1,
+   "explanation": "continue는 3의 배수(0,3,6,9)일 때 printf를 건너뛰고 다음 반복으로 갑니다.",
+   "sourceIds": [
+    "S15"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q072",
+   "topic": "U12",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "구구단에서 결과값을 출력하도록 【 ? 】를 채우면?",
+   "code": "for (dan = 2; dan < 10; dan++) {\n\tfor (x = 1; x < 10; x++)\n\t\tprintf(\"%d*%d=%2d \", dan, x, 【 ? 】);\n\tprintf(\"\\n\");\n}",
+   "choices": [
+    "x*x",
+    "dan",
+    "dan+x",
+    "dan*x"
+   ],
+   "answerIndex": 3,
+   "explanation": "dan단의 x번째 결과는 dan*x입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q073",
+   "topic": "U12",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 중첩 반복문은 *를 모두 몇 개 출력하는가?",
+   "code": "for(y = 0; y < 5; y++) {\n\tfor(x = 0; x < 10; x++)\n\t\tprintf(\"*\");\n\tprintf(\"\\n\");\n}",
+   "choices": [
+    "5개",
+    "15개",
+    "50개",
+    "10개"
+   ],
+   "answerIndex": 2,
+   "explanation": "바깥 5번 × 안쪽 10번 = 50개입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q074",
+   "topic": "U12",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "for(i = 0; i < 5; i++)가 끝난 직후 i의 값은?",
+   "choices": [
+    "6",
+    "0",
+    "4",
+    "5"
+   ],
+   "answerIndex": 3,
+   "explanation": "i가 5가 되어 조건 i < 5가 거짓이 될 때 반복이 끝나므로 5입니다.",
+   "sourceIds": [
+    "S13"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q075",
+   "topic": "U13",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "int형 10개를 저장하는 배열 선언은?",
+   "choices": [
+    "int s(10);",
+    "int s[10];",
+    "int[10] s;",
+    "array int s = 10;"
+   ],
+   "answerIndex": 1,
+   "explanation": "자료형 배열이름[크기]; 형식입니다.",
+   "sourceIds": [
+    "S16"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q076",
+   "topic": "U13",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "int s[10];의 마지막 요소는?",
+   "choices": [
+    "s[9]",
+    "s[1]",
+    "s[11]",
+    "s[10]"
+   ],
+   "answerIndex": 0,
+   "explanation": "인덱스는 0부터 시작하므로 s[0]~s[9]입니다.",
+   "sourceIds": [
+    "S16"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q077",
+   "topic": "U13",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "배열 요소에 입력받도록 【 ? 】를 채우면?",
+   "code": "for(i = 0; i < STUDENTS; i++)\n\tscanf(\"%d\", 【 ? 】);",
+   "choices": [
+    "&score",
+    "score",
+    "score[i]",
+    "&score[i]"
+   ],
+   "answerIndex": 3,
+   "explanation": "배열 요소 하나는 변수 하나처럼 쓰므로 &score[i]입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q078",
+   "topic": "U13",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 배열에서 score[3]의 값은?",
+   "code": "int score[5] = { 10, 20, 30 };",
+   "choices": [
+    "0",
+    "쓰레기값",
+    "40",
+    "30"
+   ],
+   "answerIndex": 0,
+   "explanation": "초기값이 모자라면 나머지 요소는 0으로 초기화됩니다.",
+   "sourceIds": [
+    "S16"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q079",
+   "topic": "U13",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "배열 요소 개수를 계산하도록 【 ? 】를 채우면?",
+   "code": "int score[] = { 1, 2, 3, 4, 5, 6 };\nsize = sizeof(score) / 【 ? 】;",
+   "choices": [
+    "score[0]",
+    "sizeof(int*)",
+    "sizeof(score[0])",
+    "6"
+   ],
+   "answerIndex": 2,
+   "explanation": "배열 전체 크기 / 요소 하나의 크기 = 요소 개수입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q080",
+   "topic": "U13",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "int score[5];에서 score[5] = 60;을 실행하면?",
+   "choices": [
+    "컴파일러가 자동으로 막아 준다",
+    "score[0]에 저장된다",
+    "배열 크기가 6으로 늘어난다",
+    "범위를 벗어나 치명적인 오류가 생길 수 있다"
+   ],
+   "answerIndex": 3,
+   "explanation": "인덱스가 배열 크기를 벗어나면 존재하지 않는 곳에 저장하게 되어 치명적인 오류가 생깁니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q081",
+   "topic": "U14",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "최솟값을 찾도록 【 ? 】를 채우면?",
+   "code": "minimum = s[0];\nfor (i = 1; i < SIZE; i++)\n\tif (s[i] 【 ? 】 minimum)\n\t\tminimum = s[i];",
+   "choices": [
+    "!=",
+    ">",
+    "<",
+    "=="
+   ],
+   "answerIndex": 2,
+   "explanation": "현재 요소가 지금까지의 최솟값보다 작으면 바꿉니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q082",
+   "topic": "U14",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "순차 탐색에서 【 ? 】에 들어갈 조건은?",
+   "code": "for(i = 0; i < SIZE; i++)\n\tif(【 ? 】)\n\t\tprintf(\"탐색 성공 인덱스= %d\\n\", i);",
+   "choices": [
+    "list[i] == key",
+    "list == key",
+    "i == key",
+    "list[i] = key"
+   ],
+   "answerIndex": 0,
+   "explanation": "배열 요소를 하나씩 탐색 키와 같은지(==) 비교합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q083",
+   "topic": "U14",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "2차원 배열 int s[3][5];의 행과 열의 개수는?",
+   "choices": [
+    "15행 1열",
+    "5행 5열",
+    "3열 5행",
+    "3행 5열"
+   ],
+   "answerIndex": 3,
+   "explanation": "앞이 행의 개수, 뒤가 열의 개수입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q084",
+   "topic": "U14",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "문자열의 끝까지 반복하도록 【 ? 】를 채우면?",
+   "code": "i = 0;\nwhile (s[i] != 【 ? 】)\n\ti++;",
+   "choices": [
+    "'\\0'",
+    "\"\\0\"",
+    "NULL문자",
+    "'0'"
+   ],
+   "answerIndex": 0,
+   "explanation": "문자열의 끝은 NULL 문자 '\\0'으로 표시됩니다.",
+   "sourceIds": [
+    "S17"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q085",
+   "topic": "U14",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "char str[4] = \"abc\";에 대한 설명으로 옳은 것은?",
+   "choices": [
+    "a, b, c, \\0이 저장된다",
+    "크기가 모자라 컴파일 오류",
+    "a, b, c, c가 저장된다",
+    "a, b, c만 저장된다"
+   ],
+   "answerIndex": 0,
+   "explanation": "문자열 상수로 초기화하면 컴파일러가 끝에 NULL 문자를 자동으로 추가합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q086",
+   "topic": "U14",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "행렬 덧셈을 완성하는 【 ? 】는?",
+   "code": "for(r = 0; r < ROWS; r++)\n\tfor(c = 0; c < COLS; c++)\n\t\t【 ? 】 = A[r][c] + B[r][c];",
+   "choices": [
+    "C[r]",
+    "C[r,c]",
+    "C[c][r]",
+    "C[r][c]"
+   ],
+   "answerIndex": 3,
+   "explanation": "2차원 배열 요소는 배열[행][열]로 접근합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q087",
+   "topic": "U15",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "두 정수의 합을 반환하도록 【 ? 】를 채우면?",
+   "code": "int add(int x, int y)\n{\n\tint result = x + y;\n\t【 ? 】\n}",
+   "choices": [
+    "return;",
+    "return result;",
+    "result;",
+    "print(result);"
+   ],
+   "answerIndex": 1,
+   "explanation": "return 문으로 결과값을 호출한 곳에 돌려줍니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q088",
+   "topic": "U15",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "반환값이 없는 함수의 반환형 【 ? 】는?",
+   "code": "【 ? 】 print_lines(void)\n{\n\tprintf(\"---------------------\\n\");\n}",
+   "choices": [
+    "none",
+    "int",
+    "null",
+    "void"
+   ],
+   "answerIndex": 3,
+   "explanation": "반환값이 없으면 반환형을 void로 씁니다.",
+   "sourceIds": [
+    "S18"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q089",
+   "topic": "U15",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "함수 원형으로 옳은 것은?",
+   "code": "#include <stdio.h>\n【 ? 】\nint main(void)\n{\n\tprintf(\"%d\", square(5));\n\treturn 0;\n}\nint square(int n) { return n * n; }",
+   "choices": [
+    "square(n);",
+    "int square;",
+    "int square(int n);",
+    "int square(int n)"
+   ],
+   "answerIndex": 2,
+   "explanation": "함수 원형은 반환형·이름·매개변수를 적고 세미콜론으로 끝냅니다.",
+   "sourceIds": [
+    "S18"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q090",
+   "topic": "U15",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "sum = add(2, 3);에서 2와 3을 무엇이라고 하는가?",
+   "choices": [
+    "인수",
+    "반환값",
+    "함수 원형",
+    "매개변수"
+   ],
+   "answerIndex": 0,
+   "explanation": "호출할 때 보내는 값이 인수(argument), 함수 정의에서 받는 x, y가 매개변수(parameter)입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q091",
+   "topic": "U15",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "power(2, 3)의 반환값은?",
+   "code": "int power(int x, int y)\n{\n\tint i, value = 1;\n\tfor(i = 0; i < y; i++)\n\t\tvalue *= x;\n\treturn value;\n}",
+   "choices": [
+    "8",
+    "9",
+    "5",
+    "6"
+   ],
+   "answerIndex": 0,
+   "explanation": "1×2×2×2 = 8입니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q092",
+   "topic": "U15",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "함수에 대한 설명으로 틀린 것은?",
+   "choices": [
+    "호출되기 전까지 함수 안 문장은 실행되지 않는다",
+    "중복된 코드를 제거할 수 있다",
+    "인수는 여러 개 가능하다",
+    "반환값은 여러 개 가능하다"
+   ],
+   "answerIndex": 3,
+   "explanation": "인수는 여러 개가 가능하지만 반환값은 하나만 가능합니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q093",
+   "topic": "U16",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "매번 다른 난수가 나오도록 【 ? 】를 채우면?",
+   "code": "#include <stdlib.h>\n#include <time.h>\n【 ? 】( (unsigned)time( NULL ) );",
+   "choices": [
+    "rand",
+    "srand",
+    "seed",
+    "random"
+   ],
+   "answerIndex": 1,
+   "explanation": "srand()로 시드를 설정합니다. 현재 시각을 시드로 쓰는 것이 일반적입니다.",
+   "sourceIds": [
+    "S19"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q094",
+   "topic": "U16",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "1부터 45 사이의 난수를 만들도록 【 ? 】를 채우면?",
+   "code": "printf(\"%d \", 【 ? 】);",
+   "choices": [
+    "rand() % 45",
+    "1 + rand() % 45",
+    "rand() % 46",
+    "45 + rand()"
+   ],
+   "answerIndex": 1,
+   "explanation": "rand() % 45는 0~44이므로 1을 더해 1~45로 만듭니다.",
+   "sourceIds": [
+    "S19"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q095",
+   "topic": "U16",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "time()을 쓰려면 포함해야 하는 헤더는?",
+   "choices": [
+    "<math.h>",
+    "<stdlib.h>",
+    "<time.h>",
+    "<conio.h>"
+   ],
+   "answerIndex": 2,
+   "explanation": "time()은 <time.h>, rand()/srand()/system()은 <stdlib.h>에 있습니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q096",
+   "topic": "U16",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "제곱근을 구하는 수학 함수는?",
+   "code": "#include <math.h>\nvalue = 【 ? 】(16.0);   // 4.0",
+   "choices": [
+    "sqrt",
+    "abs",
+    "root",
+    "pow"
+   ],
+   "answerIndex": 0,
+   "explanation": "sqrt()는 제곱근, pow(x, y)는 x의 y제곱입니다.",
+   "sourceIds": [
+    "S20"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q097",
+   "topic": "U16",
+   "level": "계산",
+   "type": "single_choice",
+   "question": "다음 코드의 출력은?",
+   "code": "double x = 10000;\nprintf(\"%lf\", log10(x));",
+   "choices": [
+    "4.000000",
+    "1.000000",
+    "9.210340",
+    "10000.000000"
+   ],
+   "answerIndex": 0,
+   "explanation": "log10(10000) = 4입니다. log()는 자연로그입니다.",
+   "sourceIds": [
+    "S20"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q098",
+   "topic": "U16",
+   "level": "응용",
+   "type": "single_choice",
+   "question": "로또 번호 중복을 막도록 【 ? 】를 채우면?",
+   "code": "do {\n\ttemp = 1 + (rand() % MAX);\n} while (【 ? 】);\nnumbers[temp] = 1;",
+   "choices": [
+    "numbers[temp] = 1",
+    "numbers[temp] == 0",
+    "numbers[temp] == 1",
+    "temp == 1"
+   ],
+   "answerIndex": 2,
+   "explanation": "이미 뽑힌 번호(사용 표시 1)이면 다시 뽑습니다.",
+   "sourceIds": [],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  },
+  {
+   "id": "Q099",
+   "topic": "U16",
+   "level": "기본",
+   "type": "single_choice",
+   "question": "운영체제 명령(예: 화면 지우기)을 실행하는 함수는?",
+   "code": "【 ? 】(\"cls\");",
+   "choices": [
+    "exec",
+    "system",
+    "command",
+    "shell"
+   ],
+   "answerIndex": 1,
+   "explanation": "system()은 문자열로 전달된 명령을 운영체제 셸로 실행합니다.",
+   "sourceIds": [
+    "S21"
+   ],
+   "origin": "자체 제작 · 강의 PPT 기반"
+  }
+ ]
+}

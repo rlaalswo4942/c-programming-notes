@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "id": "S01",
+      "kind": "Microsoft 문서",
+      "organization": "Microsoft",
+      "title": "Visual Studio Community",
+      "url": "https://visualstudio.microsoft.com/ko/vs/community/",
+      "scope": "U02 개발 도구(IDE) 설치"
+    },
+    {
+      "id": "S02",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "printf, fprintf, sprintf, snprintf",
+      "url": "https://en.cppreference.com/w/c/io/fprintf",
+      "scope": "printf() 형식 지정자"
+    },
+    {
+      "id": "S03",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "scanf, fscanf, sscanf",
+      "url": "https://en.cppreference.com/w/c/io/fscanf",
+      "scope": "scanf() 형식 지정자, %c 앞 공백"
+    },
+    {
+      "id": "S04",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Arithmetic types",
+      "url": "https://en.cppreference.com/w/c/language/arithmetic_types",
+      "scope": "정수형·실수형·문자형"
+    },
+    {
+      "id": "S05",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Escape sequences",
+      "url": "https://en.cppreference.com/w/c/language/escape",
+      "scope": "이스케이프 시퀀스"
+    },
+    {
+      "id": "S06",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Arithmetic operators",
+      "url": "https://en.cppreference.com/w/c/language/operator_arithmetic",
+      "scope": "산술 연산자, 정수 나눗셈·나머지"
+    },
+    {
+      "id": "S07",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "C Operator Precedence",
+      "url": "https://en.cppreference.com/w/c/language/operator_precedence",
+      "scope": "연산자 우선순위·결합 규칙"
+    },
+    {
+      "id": "S08",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Implicit conversions",
+      "url": "https://en.cppreference.com/w/c/language/conversion",
+      "scope": "자동 형변환"
+    },
+    {
+      "id": "S09",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "if statement",
+      "url": "https://en.cppreference.com/w/c/language/if",
+      "scope": "if-else, else 매칭"
+    },
+    {
+      "id": "S10",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "switch statement",
+      "url": "https://en.cppreference.com/w/c/language/switch",
+      "scope": "switch·case·default"
+    },
+    {
+      "id": "S11",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "while loop",
+      "url": "https://en.cppreference.com/w/c/language/while",
+      "scope": "while 문"
+    },
+    {
+      "id": "S12",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "do-while loop",
+      "url": "https://en.cppreference.com/w/c/language/do",
+      "scope": "do-while 문"
+    },
+    {
+      "id": "S13",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "for loop",
+      "url": "https://en.cppreference.com/w/c/language/for",
+      "scope": "for 문"
+    },
+    {
+      "id": "S14",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "break statement",
+      "url": "https://en.cppreference.com/w/c/language/break",
+      "scope": "break"
+    },
+    {
+      "id": "S15",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "continue statement",
+      "url": "https://en.cppreference.com/w/c/language/continue",
+      "scope": "continue"
+    },
+    {
+      "id": "S16",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Array declaration",
+      "url": "https://en.cppreference.com/w/c/language/array",
+      "scope": "배열 선언·초기화"
+    },
+    {
+      "id": "S17",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Null-terminated byte strings",
+      "url": "https://en.cppreference.com/w/c/string/byte",
+      "scope": "문자열과 NULL 문자"
+    },
+    {
+      "id": "S18",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Function definitions",
+      "url": "https://en.cppreference.com/w/c/language/function_definition",
+      "scope": "함수 정의·원형"
+    },
+    {
+      "id": "S19",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "rand / srand",
+      "url": "https://en.cppreference.com/w/c/numeric/random/rand",
+      "scope": "난수와 시드"
+    },
+    {
+      "id": "S20",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Common mathematical functions (math.h)",
+      "url": "https://en.cppreference.com/w/c/numeric/math",
+      "scope": "수학 라이브러리 함수"
+    },
+    {
+      "id": "S21",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "system",
+      "url": "https://en.cppreference.com/w/c/program/system",
+      "scope": "system() 함수"
+    },
+    {
+      "id": "S22",
+      "kind": "Microsoft 문서",
+      "organization": "Microsoft Learn",
+      "title": "/sdl (추가 보안 검사 사용)",
+      "url": "https://learn.microsoft.com/ko-kr/cpp/build/reference/sdl-enable-additional-security-checks",
+      "scope": "SDL 검사와 scanf 오류"
+    },
+    {
+      "id": "S23",
+      "kind": "Microsoft 문서",
+      "organization": "Microsoft Learn",
+      "title": "데이터 형식 범위",
+      "url": "https://learn.microsoft.com/ko-kr/cpp/cpp/data-type-ranges",
+      "scope": "MSVC 자료형 크기·범위"
+    },
+    {
+      "id": "S24",
+      "kind": "C 언어 레퍼런스",
+      "organization": "cppreference.com",
+      "title": "Replacing text macros (#define)",
+      "url": "https://en.cppreference.com/w/c/preprocessor/replace",
+      "scope": "기호 상수 #define"
+    }
+  ]
+}
